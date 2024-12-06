@@ -17,7 +17,7 @@ with open("tokenizer.pickle", "rb") as f:
     tokenizer = pickle.load(f)
 
 # Configure Gemini API
-genai.configure(api_key="AIzaSyDZiNTUw48E80zRv9fy92dHPTESS2rFATw")  # Replace with your actual API key
+genai.configure(api_key="your Gemini API Key here")  # Replace with your actual API key
 
 # Helper function to format text with bold and italics
 def format_response_with_bold(text):
@@ -29,9 +29,9 @@ def format_response_with_bold(text):
 # Function to fetch Reddit posts dynamically
 def fetch_reddit_posts(subreddit, num_posts=5):
     reddit = praw.Reddit(
-        client_id="KKTSH9UFredZENp9Fiqq9w",
-        client_secret="L0C--x9Gh6BscadMzaoWmGXuoQcEfg",
-        user_agent="capx-script by /u/Spiritual-Move7"
+        client_id="Your Client ID Here",
+        client_secret="your Client Secret here",
+        user_agent="apiprojectname-script by /u/Reddit_username"
     )
 
     subreddit = reddit.subreddit(subreddit)
