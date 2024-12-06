@@ -124,7 +124,7 @@ streamlit run app.py
 By following these steps, you will successfully run the Reddit Stocks Genie project. First, set up the Reddit and Gemini API keys, install dependencies, train the model using the Jupyter Notebook, and finally deploy the Streamlit web app. This project provides valuable insights into stock market trends using sentiment analysis and AI-driven responses.
 
 ## **💡 Need Help?**
-Watch My demo video by clickin on the video below:- 
+Watch My demo video by click on the video below:- 
 
 
 
